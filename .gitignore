@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vercel/
+.DS_Store
+*.log
+# Never commit the private key used to issue activation codes
+private-key.pem
+license-private-key.pem
+PhotoFlow-License-Issuer/
+
+# Environment files hold your server address, admin path and other settings: never commit them.
+.env
+.env.*
+!.env.example
+*.local
+dist-cloud/
+*.tsbuildinfo
